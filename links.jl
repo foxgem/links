@@ -1,5 +1,6 @@
 using Pkg
 pkg"activate ."
+pkg"instantiate"
 
 using HTTP, Gumbo, Sockets
 
