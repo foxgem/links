@@ -1,5 +1,6 @@
 using Pkg
 pkg"activate ."
+pkg"registry add https://mirrors.ustc.edu.cn/julia/registries/General.git"
 pkg"instantiate"
 
 using HTTP, Gumbo, Sockets
